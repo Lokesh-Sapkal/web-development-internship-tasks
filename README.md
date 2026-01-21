@@ -35,7 +35,10 @@ web-development-internship-tasks/
 │
 ├── task4-contact-form/
 │   ├── index.html
-│   └── results.html
+│   ├── results.html
+│   └── screenshots/
+│    ├── form-empty.png
+│    └── results.png
 │
 ├── README.md
 ├── LICENSE                → (MIT)
@@ -47,6 +50,16 @@ web-development-internship-tasks/
 1. Open `task4-contact-form/index.html` in a browser.
 2. Fill the form and submit.
 3. Form results will be displayed on `results.html`.
+
+---
+
+### Preview
+
+- Contact Form (Empty)
+<img src="./task4-contact-form/screenshots/form-empty.png" width="500"/>
+
+- Submission Result
+<img src="./task4-contact-form/screenshots/results.png" width="300"/>
 
 ---
 
