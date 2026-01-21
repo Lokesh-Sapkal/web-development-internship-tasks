@@ -4,6 +4,42 @@ These tasks demonstrate practical skills in HTML, CSS, and JavaScript. They incl
 
 ---
 
+## 📌 Task 3 — Navigation Menu Webpage
+
+### 📖 Description
+Developed a simple responsive navigation page with internal section links for smooth user scrolling. The page includes sections like Home, About, Services, Contact, and Footer along with basic UI styling for usability.
+
+### 🎯 Skills & Concepts
+- HTML semantic sections
+- Navigation bar
+- Internal anchor links
+- Smooth scrolling using JavaScript
+- Basic CSS styling and layout
+
+### 🗂️ Project Structure
+```
+web-development-internship-tasks/
+│
+├── task3-navigation-menu/
+│   ├── index.html
+│   └── assets/
+│        ├── css/
+│        │   └── style.css
+│        ├── img/               → Section display images
+│        └── screenshots/       → Page preview screenshot
+│
+├── README.md
+├── LICENSE                → (MIT)
+└── .gitignore             → (Node)
+```
+
+### 🖼️ Preview
+
+- Web Page
+<img src="./task3-navigation-menu/assets/screenshots/webpage-overview.png" width="500"/>
+
+---
+
 ## 📌 Task 4 — HTML Contact Form
 
 ### 📖 Description
@@ -18,16 +54,12 @@ Developed a basic contact form to practice HTML form components such as:
 
 The form also includes required fields, basic client-side validation, and displays submitted data on a separate results page using URL query parsing.
 
----
-
 ### 🎯 Skills & Concepts
 - HTML
 - Form elements & attributes
 - Form validation
 - GET method
 - Basic input handling
-
----
 
 ### 🗂️ Project Structure
 ```
@@ -44,16 +76,13 @@ web-development-internship-tasks/
 ├── LICENSE                → (MIT)
 └── .gitignore             → (Node)
 ```
----
 
 ### ▶️ How to Run
 1. Open `task4-contact-form/index.html` in a browser.
 2. Fill the form and submit.
 3. Form results will be displayed on `results.html`.
 
----
-
-### Preview
+### 🖼️ Preview
 
 - Contact Form (Empty)
 <img src="./task4-contact-form/screenshots/form-empty.png" width="500"/>
