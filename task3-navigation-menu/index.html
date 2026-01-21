@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Navigation Menu</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Nav -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Sections -->
+        <div class="section">
+            <section id="home">
+                <div class="section-head">
+                    <h2>Welcome to Our Website</h2>
+                </div>
+
+                <div class="section-body">
+                    <img src="assets/img/landing-page.png" alt="Home">
+                    <p>
+                        Welcome to our simple demonstration website. This page is designed to showcase a basic
+                        navigation
+                        menu
+                        using
+                        HTML and CSS. Click on the links in the navigation bar to move between different section of the
+                        page
+                        smoothly.
+                    </p>
+                </div>
+            </section>
+
+            <section id="services">
+                <div class="section-head">
+                    <h2>Our Services</h2>
+                </div>
+                <div class="section-body">
+                    <img src="assets/img/web-development.png" alt="Service">
+                    <p>
+                        We offer a variety of beginner-friendly web development tasks focused on building a strong
+                        foundation in
+                        HTML, CSS and JavaScript. Each task helps learners improve their skills while working on
+                        practical
+                        and
+                        real-world projects.
+                    </p>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="section-head">
+                    <h2>About Us</h2>
+                </div>
+                <div class="section-body">
+                    <img src="assets/img/team-collaboration.png" alt="About">
+                    <p>
+                        This website is part of a learning assignment aimed at helping new developers understand how
+                        navigation
+                        menus work on web pages. The goal is to encourage experimentation with layout, links and basic
+                        styling
+                        techniques in modern web interfaces.
+                    </p>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="section-head">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="section-body">
+                    <img src="assets/img/contact-us.png" alt="Contact">
+                    <p>
+                        If you would like to get in touch or share your feedback about this project, feel free to
+                        contact
+                        us.
+                        You
+                        can reach out via email at example@mail.com or simply explore more of our work through the
+                        navigation
+                        menu
+                        above.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <i>&copy; 2026 Navigation Menu Demo - All Rights Reserved.</i>
+    </footer>
+</body>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</html>
