@@ -4,6 +4,45 @@ These tasks demonstrate practical skills in HTML, CSS, and JavaScript. They incl
 
 ---
 
+## 📌 Task 2 — E-commerce Product Page
+
+### 📖 Description
+Developed a responsive and visually appealing **E-commerce Product Page** showcasing multiple product categories such as **Electronics**, **Fashion & Lifestyle** and **Home & Living**.
+
+The page focuses on a clean UI, intuitive layout, and responsiveness across different screen sizes using **CSS Grid, Flexbox and Media Queries**. It simulates a real-world online shopping experience with product cards, pricing, category navigation, and call-to-action buttons.
+
+### 🎯 Skills & Concepts
+- HTML5 semantic structure  
+- CSS Grid & Flexbox  
+- Responsive design using media queries  
+- UI/UX design principles  
+- Category-based product layout  
+- Smooth scrolling navigation  
+- Button hover interactions  
+
+### 🗂️ Project Structure
+```
+web-development-internship-tasks/
+│
+├── task2-e-commerce-product-page/
+│   ├── index.html
+│   ├── css/
+│   │    └── style.css
+│   └── assets/
+│        ├── img/               → Section display images
+│        └── screenshot/       → Page preview screenshot
+│
+├── README.md
+├── LICENSE                → (MIT)
+└── .gitignore             → (Node)
+```
+
+### 🖼️ Preview
+- E-commerce Product Page  
+<img src="./task2-e-commerce-product-page/assets/screenshot/e-commerce-product-page.png" width="500"/>
+
+---
+
 ## 📌 Task 3 — Navigation Menu Webpage
 
 ### 📖 Description
@@ -22,9 +61,9 @@ web-development-internship-tasks/
 │
 ├── task3-navigation-menu/
 │   ├── index.html
+│   ├── css/
+│   │    └── style.css
 │   └── assets/
-│        ├── css/
-│        │   └── style.css
 │        ├── img/               → Section display images
 │        └── screenshots/       → Page preview screenshot
 │
@@ -35,7 +74,7 @@ web-development-internship-tasks/
 
 ### 🖼️ Preview
 
-- Web Page
+- Navigated Web Page
 <img src="./task3-navigation-menu/assets/screenshots/webpage-overview.png" width="500"/>
 
 ---
@@ -68,9 +107,8 @@ web-development-internship-tasks/
 ├── task4-contact-form/
 │   ├── index.html
 │   ├── results.html
-│   └── screenshots/
-│    ├── form-empty.png
-│    └── results.png
+│   └── assets/
+│        └── screenshots/       → Page preview screenshot
 │
 ├── README.md
 ├── LICENSE                → (MIT)
@@ -85,10 +123,10 @@ web-development-internship-tasks/
 ### 🖼️ Preview
 
 - Contact Form (Empty)
-<img src="./task4-contact-form/screenshots/form-empty.png" width="500"/>
+<img src="./task4-contact-form/assets/screenshots/form-empty.png" width="500"/>
 
 - Submission Result
-<img src="./task4-contact-form/screenshots/results.png" width="300"/>
+<img src="./task4-contact-form/assets/screenshots/results.png" width="300"/>
 
 ---
 
