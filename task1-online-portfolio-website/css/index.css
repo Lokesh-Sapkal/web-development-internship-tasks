@@ -1,0 +1,63 @@
+.container {
+    width: 100%;
+    height: 685px;
+    background: url("../assets/images/intro-bg.png") no-repeat center/cover;
+}
+
+.main-info h2 {
+    color: #000000;
+    margin: 40px 0 30px 40px;
+    font-size: 26px;
+}
+
+.main-info .role-line {
+    color: rgb(22, 24, 23);
+    font-size: 20px;
+    margin: 0 0 10px 40px;
+}
+
+.main-info .role-line li {
+    margin-bottom: 10px;
+}
+
+.main-info .intro {
+    color: #303234;
+    margin: 10px 350px 20px 30px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.main-info .location {
+    color: #303234;
+    margin: 10px 10px 10px 30px;
+}
+
+.main-info .open-for {
+    color: #303234;
+    margin: 10px 10px 20px 30px;
+}
+
+.main-info button {
+    background: transparent;
+    border: 1px solid #000000;
+    padding: 7px 7px;
+    margin: 10px 40px;
+}
+
+button:hover {
+    background: #404040;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffbaba;
+}
+
+a:active {
+    color: aquamarine;
+}
